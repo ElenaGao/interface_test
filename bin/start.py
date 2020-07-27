@@ -12,7 +12,8 @@ import os, sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(BASE_DIR)
+from core import src
+from core.models import *
 
 if __name__ == '__main__':
-    from core import src
     src.run()

@@ -17,3 +17,4 @@ C2P_PATH = os.path.join(DB_PATH, 'customer_to_prize')
 PRIZE_PATH = os.path.join(DB_PATH, 'prize')
 RECORE_PATH = os.path.join(DB_PATH, 'record')
 SUBJECT_PATH = os.path.join(DB_PATH, 'subject')
+

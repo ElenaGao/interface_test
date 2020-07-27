@@ -187,8 +187,10 @@ class Customer2Prize(Base):
 
 
 if __name__ == '__main__':
-    # Subject.create_subjects_from_file('../test.xlsx')
-    # print([obj.title for obj in Subject.filter_question()])
+    Subject.create_subjects_from_file('../test.xlsx')
+    print([obj.title for obj in Subject.filter_question()])
     # Subject.filter_question()
     # Prize.create_prize()
-    Prize.get_obj_by_name('苹果')
+    # Prize.get_obj_by_name('苹果')
+    # obj = Customer('elena','female',20,18602153054)
+    # obj.save()
